@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORTIA EB | Limpieza Premium y Exclusiva</title>
+    <meta name="description" content="Servicio de limpieza premium para casas, departamentos y oficinas. No pagas solo por limpieza, pagas por tranquilidad y exclusividad.">
+    
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="marquee-container">
+                <div class="offer-text marquee">
+                    <span><i class="fa-solid fa-fire glow-icon"></i> <strong>OFERTA LIMITADA</strong> • DESCUENTO EXCLUSIVO en tu primera limpieza si reservas HOY.</span>
+                    <span><i class="fa-solid fa-fire glow-icon"></i> <strong>OFERTA LIMITADA</strong> • DESCUENTO EXCLUSIVO en tu primera limpieza si reservas HOY.</span>
+                </div>
+            </div>
+            <div class="countdown" id="countdown">
+                <span class="time-block" id="hours">24</span>:<span class="time-block" id="minutes">00</span>:<span class="time-block" id="seconds">00</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="WhatsApp Video 2026-05-10 at 10.13.56 PM.mp4" type="video/mp4">
+            <!-- Fallback image if video is not available -->
+            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=2070&auto=format&fit=crop" alt="Limpieza Premium">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="particles" id="particles"></div>
+        
+        <div class="hero-content">
+            <div class="hero-brand animate-up" style="animation-delay: 0.1s;">
+                <span class="brand-name">FORTIA EB</span>
+            </div>
+            <h1 class="hero-title animate-up" style="animation-delay: 0.3s;">
+                Tu hogar impecable.<br>
+                <span class="gradient-text">Tu mente tranquila.</span>
+            </h1>
+            <p class="hero-subtitle animate-up" style="animation-delay: 0.5s;">
+                Limpieza profesional diseñada para personas que valoran su tiempo, tranquilidad y bienestar.
+            </p>
+            <div class="hero-cta-wrapper animate-up" style="animation-delay: 0.7s;">
+                <a href="https://wa.link/kavziu" target="_blank" class="btn-premium btn-large">
+                    Reservar por WhatsApp <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <p class="cta-trust">Respuesta rápida • Atención personalizada • Servicio premium</p>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Descubre más</p>
+        </div>
+    </header>
+
+    <!-- PSYCHOLOGY SECTION -->
+    <section class="psychology-section">
+        <div class="container">
+            <div class="psychology-grid">
+                <div class="psy-card reveal">
+                    <i class="fa-solid fa-brain"></i>
+                    <h3>Paz Mental</h3>
+                    <p>No pagas solo por limpieza. Pagas por tranquilidad.</p>
+                </div>
+                <div class="psy-card reveal delay-1">
+                    <i class="fa-regular fa-clock"></i>
+                    <h3>Más tiempo para ti</h3>
+                    <p>Las personas exitosas protegen su tiempo. Nosotros hacemos el resto.</p>
+                </div>
+                <div class="psy-card reveal delay-2">
+                    <i class="fa-solid fa-house-chimney-window"></i>
+                    <h3>Confort y Lujo</h3>
+                    <p>Un hogar limpio y ordenado cambia cómo te sientes día a día.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY SECTION (IMÁGENES) -->
+    <section class="gallery-section" id="galeria">
+        <div class="container">
+            <h2 class="section-title reveal">Nuestro Equipo en Acción</h2>
+            <div class="gallery-grid">
+                <!-- Imagen 1 (Pareja bailando/limpiando) -->
+                <div class="gallery-item reveal">
+                    <img src="image.png" alt="Pareja disfrutando la limpieza">
+                    <div class="gallery-overlay">
+                        <h4>Limpieza Divertida y Confiable</h4>
+                    </div>
+                </div>
+                <!-- Imagen 2 (Mujer aspirando) -->
+                <div class="gallery-item reveal delay-1">
+                    <img src="image copy.png" alt="Limpieza de alfombras profunda">
+                    <div class="gallery-overlay">
+                        <h4>Tecnología y Detalle</h4>
+                    </div>
+                </div>
+                <!-- Imagen 3 (Mujer barriendo) -->
+                <div class="gallery-item reveal">
+                    <img src="image copy 2.png" alt="Limpieza meticulosa">
+                    <div class="gallery-overlay">
+                        <h4>Cuidado en cada rincón</h4>
+                    </div>
+                </div>
+                <!-- Imagen 4 (Pareja limpiando casas/departamentos) -->
+                <div class="gallery-item reveal delay-1">
+                    <img src="image copy 3.png" alt="Limpieza de casas y departamentos">
+                    <div class="gallery-overlay">
+                        <h4>Equipos Especializados</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services-section" id="servicios">
+        <div class="container">
+            <h2 class="section-title reveal">Nuestros Servicios Premium</h2>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-house"></i></div>
+                    <h3>Casas</h3>
+                    <p>Limpieza detallada para mantener tu hogar como nuevo.</p>
+                </div>
+                <div class="service-card reveal delay-1">
+                    <div class="service-icon"><i class="fa-solid fa-building"></i></div>
+                    <h3>Departamentos</h3>
+                    <p>Cuidado meticuloso adaptado a espacios modernos.</p>
+                </div>
+                <div class="service-card reveal delay-2">
+                    <div class="service-icon"><i class="fa-solid fa-briefcase"></i></div>
+                    <h3>Oficinas</h3>
+                    <p>Ambientes de trabajo impecables que inspiran productividad.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-brands fa-airbnb"></i></div>
+                    <h3>Airbnb</h3>
+                    <p>Rotación rápida con estándares de hotel 5 estrellas.</p>
+                </div>
+                <div class="service-card reveal delay-1">
+                    <div class="service-icon"><i class="fa-solid fa-sparkles"></i></div>
+                    <h3>Limpieza Profunda</h3>
+                    <p>Desinfección y limpieza al detalle de cada rincón.</p>
+                </div>
+                <div class="service-card reveal delay-2">
+                    <div class="service-icon"><i class="fa-solid fa-hammer"></i></div>
+                    <h3>Post Construcción</h3>
+                    <p>Eliminación de polvo y escombros para estrenar tu espacio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section class="pricing-section" id="precios">
+        <div class="pricing-glow"></div>
+        <div class="container">
+            <h2 class="section-title text-center reveal">Inversión en tu Tranquilidad</h2>
+            
+            <div class="pricing-featured reveal">
+                <div class="pricing-featured-content">
+                    <div class="pricing-badge">LIMPIEZA PREMIUM</div>
+                    <div class="price">Desde <span>S/39</span></div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-check"></i> Personal confiable</li>
+                        <li><i class="fa-solid fa-check"></i> Atención rápida</li>
+                        <li><i class="fa-solid fa-check"></i> Limpieza profunda</li>
+                        <li><i class="fa-solid fa-check"></i> Resultados premium</li>
+                    </ul>
+                    <a href="https://wa.link/kavziu" target="_blank" class="btn-premium">Reservar ahora</a>
+                </div>
+            </div>
+
+            <div class="pricing-tables reveal delay-1">
+                <div class="pricing-table">
+                    <h3>Limpieza Básica</h3>
+                    <ul>
+                        <li><span>Cuarto pequeño</span> <strong>S/39</strong></li>
+                        <li><span>Cuarto mediano</span> <strong>S/59</strong></li>
+                        <li><span>Cuarto grande</span> <strong>S/79</strong></li>
+                    </ul>
+                </div>
+                <div class="pricing-table highlight">
+                    <h3>Limpieza Profunda Premium</h3>
+                    <ul>
+                        <li><span>Cuarto pequeño</span> <strong>S/69</strong></li>
+                        <li><span>Cuarto mediano</span> <strong>S/99</strong></li>
+                        <li><span>Cuarto grande</span> <strong>S/139</strong></li>
+                    </ul>
+                </div>
+                <div class="pricing-table">
+                    <h3>Espacios Completos</h3>
+                    <ul>
+                        <li><span>Depa 1 hab.</span> <strong>desde S/129</strong></li>
+                        <li><span>Depa 2 hab.</span> <strong>desde S/189</strong></li>
+                        <li><span>Depa 3 hab.</span> <strong>desde S/259</strong></li>
+                        <li><span>Oficinas</span> <strong>desde S/149</strong></li>
+                        <li><span>Airbnb</span> <strong>desde S/89</strong></li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="pricing-disclaimer reveal delay-2">
+                * El precio puede variar según el tamaño exacto del espacio y el nivel de limpieza requerido.
+            </p>
+
+            <div class="calculator-card reveal delay-3">
+                <h3><i class="fa-solid fa-calculator"></i> Cotizador Rápido</h3>
+                <div class="calc-form">
+                    <select id="calc-type" class="premium-input">
+                        <option value="0">Selecciona tipo de limpieza...</option>
+                        <option value="39">Básica - Cuarto Pequeño</option>
+                        <option value="129">Departamento - 1 Habitación</option>
+                        <option value="149">Oficina (Aprox)</option>
+                    </select>
+                    <div class="calc-result" id="calc-result">S/ 0.00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIP PROGRAM -->
+    <section class="vip-section">
+        <div class="container vip-container reveal">
+            <div class="vip-content">
+                <div class="vip-badge"><i class="fa-solid fa-crown"></i> PROGRAMA VIP</div>
+                <h2>Mientras más utilizas nuestros servicios, más beneficios obtienes.</h2>
+                <p>Después de 5 servicios, tu <strong>6ta limpieza</strong> tendrá un descuento especial o será completamente <strong>GRATIS</strong>.</p>
+                <div class="vip-steps">
+                    <div class="step active">1</div>
+                    <div class="step active">2</div>
+                    <div class="step active">3</div>
+                    <div class="step">4</div>
+                    <div class="step">5</div>
+                    <div class="step gift"><i class="fa-solid fa-gift"></i></div>
+                </div>
+            </div>
+            <div class="vip-image">
+                <div class="glass-card vip-card-demo">
+                    <i class="fa-solid fa-gem card-icon"></i>
+                    <h4>Miembro Premium</h4>
+                    <p>FORTIA EB Exclusive</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST SECTION -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card reveal">
+                    <div class="stat-number" data-target="99">0</div><span>%</span>
+                    <p>Clientes Satisfechos</p>
+                </div>
+                <div class="stat-card reveal delay-1">
+                    <div class="stat-number" data-target="15">0</div><span>min</span>
+                    <p>Tiempo de Respuesta</p>
+                </div>
+                <div class="stat-card reveal delay-2">
+                    <div class="stat-number" data-target="100">0</div><span>%</span>
+                    <p>Puntualidad Garantizada</p>
+                </div>
+                <div class="stat-card reveal delay-3">
+                    <div class="stat-icon"><i class="fa-solid fa-star"></i></div>
+                    <p>Atención Premium</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title text-center reveal">La Experiencia FORTIA EB</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"El nivel de detalle es impresionante. Mi departamento nunca se había sentido tan limpio y moderno. El equipo es súper profesional."</p>
+                    <h4>- Mariana L.</h4>
+                </div>
+                <div class="testimonial-card reveal delay-1">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Vale cada centavo. Poder llegar a casa del trabajo y encontrar todo impecable me da una paz mental invaluable. 100% recomendados."</p>
+                    <h4>- Carlos R.</h4>
+                </div>
+                <div class="testimonial-card reveal delay-2">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Su programa VIP es genial. Tienen estándares de lujo y el servicio al cliente por WhatsApp es rapidísimo."</p>
+                    <h4>- Andrea V.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta">
+        <div class="final-glow"></div>
+        <div class="container cta-container reveal">
+            <h2>Más tranquilidad.<br>Más tiempo para ti.<br><span class="gradient-text">Nosotros hacemos el resto.</span></h2>
+            <a href="https://wa.link/kavziu" target="_blank" class="btn-premium btn-massive">
+                Agendar Mi Limpieza <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>FORTIA EB</h3>
+                <p>Limpieza premium para personas exigentes.</p>
+            </div>
+            <div class="footer-links">
+                <p>&copy; 2026 FORTIA EB. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    <!-- FLOATING WHATSAPP -->
+    <a href="https://wa.link/kavziu" target="_blank" class="whatsapp-float">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
